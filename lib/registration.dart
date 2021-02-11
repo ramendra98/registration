@@ -23,10 +23,7 @@ class _RegistrationState extends State<Registration> {
                 margin:
                     const EdgeInsets.only(left: 20.0, top: 20.0, right: 20.0),
                 height: 50.0,
-                decoration: new BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.zero,
-                ),
+                decoration:_boxDecoration();
                 child: new Directionality(
                   textDirection: TextDirection.ltr,
                   child: new TextFormField(
@@ -290,4 +287,7 @@ class _RegistrationState extends State<Registration> {
       ),
     );
   }
+}
+
+class _boxDecoration {
 }
